@@ -8,17 +8,9 @@ lt = {'a':1, 'q':1,'y':1, 'i':1, 'j' : 1,
       'o':7, 'z':7,
       'f':8, 'p':8
       }
-#name = input("Enter Your Name: ")
+name = input("Enter Your Name: ")
 sum = 0
-name = [
-"Sandesh",
-"Sanjeev",
-"Sanjiv",
-"SenTamilChelvan",
-"Shailesh",
-"Sharan",
-"Shreeharsh"
-]
+#name = []
 sum = 0
 for na in name:
     for item in na.lower():
